@@ -3,24 +3,24 @@
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## 👨‍🎓 Student Information
+## Student Information
 - **Name**: Joshua Rebo
 - **Email**: joshua.rebo@iu-study.org  
 - **Matriculation Number**: 9213334
 - **University**: IU International University of Applied Sciences
 - **Dataset** : https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints/data
 
-## 📋 Project Overview
+## Project Overview
 
 This repository contains a comprehensive implementation of an **enhanced NLP-based topic modeling pipeline** applied to consumer complaint data from the U.S. Consumer Financial Protection Bureau. The project demonstrates advanced text mining techniques to extract meaningful topics and insights from unstructured consumer complaints.
 
-### 🎯 Objectives
+### Objectives
 - Extract dominant themes from consumer complaints using state-of-the-art NLP methods
 - Compare effectiveness of different topic modeling approaches (LDA vs NMF)
 - Implement parameter optimization for better topic coherence
 - Provide actionable insights for improving financial services
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: U.S. Consumer Financial Protection Bureau Consumer Complaints Database
 - **Total Complaints**: 555,957 complaints
@@ -28,7 +28,7 @@ This repository contains a comprehensive implementation of an **enhanced NLP-bas
 - **Average Tokens per Complaint**: 82.6 tokens
 - **Text Processing**: Comprehensive cleaning, tokenization, lemmatization, and stopword removal
 
-## 🔬 Methodology & Analysis Pipeline
+## Methodology & Analysis Pipeline
 
 ### 1. **Enhanced Text Preprocessing**
 - Lowercase normalization and punctuation removal
@@ -55,7 +55,7 @@ This repository contains a comprehensive implementation of an **enhanced NLP-bas
 - **Optimization**: Grid search across multiple parameters
 - **Best Parameters**: n_components=10, alpha_W=0.0, alpha_H=0.0, l1_ratio=0.5
 
-## 🏆 Key Findings & Insights
+## Key Findings & Insights
 
 ### **Topic Model Performance Comparison**
 | Model | Topics | Coherence Score | Reconstruction Error | Best Performance |
@@ -111,7 +111,7 @@ nlp-project-IU/
     └── github_upload.ps1                  # Git deployment script
 ```
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### **Prerequisites**
 - Python 3.8+ 
@@ -126,16 +126,12 @@ cd nlp-project-IU
 ```
 
 ### **2. Dataset Setup** 
-⚠️ **IMPORTANT**: The original dataset is not included in this repository due to its large size (>100MB).
+**IMPORTANT**: The original dataset is not included in this repository due to its large size (>100MB).
 
 **Download the Dataset:**
 1. Visit: [Consumer Complaints Database - Kaggle](https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints/data)
 2. Download `consumer_complaints.csv` 
 3. Place the file in the project root directory: `nlp-project-IU/consumer_complaints.csv`
-
-**Alternative Dataset Sources:**
-- [CFPB Official Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
-- Direct download: Use the data collection cell in the notebook for automated download
 
 **Verification:**
 ```powershell
@@ -179,7 +175,7 @@ python -m spacy download en_core_web_sm
 jupyter notebook
 
 # Open the main analysis file
-# 🌟 nlp_topic_modeling_pipeline.ipynb
+# nlp_topic_modeling_pipeline.ipynb
 ```
 
 ### **5. Run the Analysis**
@@ -188,14 +184,14 @@ jupyter notebook
 3. Run all cells in sequence (Cell → Run All)
 4. Explore the enhanced NMF analysis and visualizations
 
-## 📈 Results & Visualizations
+## Results & Visualizations
 
 ### **Interactive Visualizations Available:**
-- 🎯 **LDA Topic Visualization**: `results/visualizations/lda_visualization.html`
-- 📊 **Enhanced NMF Topic Analysis**: Multiple advanced visualizations
-- 🌥️ **Topic Word Clouds**: Visual representation of topic themes  
-- 📈 **Model Comparison Charts**: LDA vs NMF performance analysis
-- 🔥 **Topic Overlap Heatmaps**: Cross-model topic similarity analysis
+- **LDA Topic Visualization**: `results/visualizations/lda_visualization.html`
+- **Enhanced NMF Topic Analysis**: Multiple advanced visualizations
+- **Topic Word Clouds**: Visual representation of topic themes  
+- **Model Comparison Charts**: LDA vs NMF performance analysis
+- **Topic Overlap Heatmaps**: Cross-model topic similarity analysis
 
 ### **Key Performance Metrics:**
 - **Processing Efficiency**: 555K+ complaints → 49K processed (11x data reduction)
@@ -203,7 +199,7 @@ jupyter notebook
 - **Topic Quality**: 10 distinct, interpretable topic categories identified
 - **Parameter Optimization**: Grid search improved performance by 33%
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### **Libraries & Technologies Used:**
 ```python
@@ -225,15 +221,14 @@ wordcloud==1.9.2       # Word cloud generation
 ```
 
 ### **Enhanced Features:**
-- ✅ **Automated Parameter Tuning**: Grid search optimization for NMF
-- ✅ **Coherence Evaluation**: Quantitative topic quality assessment  
-- ✅ **Model Comparison**: Direct LDA vs NMF performance analysis
-- ✅ **Interactive Visualizations**: Dynamic topic exploration tools
-- ✅ **Representative Document Analysis**: Automatic topic interpretation
-- ✅ **Advanced Preprocessing**: Domain-specific text cleaning
+- **Automated Parameter Tuning**: Grid search optimization for NMF
+- **Coherence Evaluation**: Quantitative topic quality assessment  
+- **Model Comparison**: Direct LDA vs NMF performance analysis
+- **Interactive Visualizations**: Dynamic topic exploration tools
+- **Representative Document Analysis**: Automatic topic interpretation
+- **Advanced Preprocessing**: Domain-specific text cleaning
 
 ## Academic Context
-
 This project demonstrates advanced NLP and machine learning techniques for:
 - **Unsupervised Learning**: Topic modeling without labeled data
 - **Text Mining**: Extracting insights from unstructured text
@@ -249,7 +244,7 @@ This project demonstrates advanced NLP and machine learning techniques for:
 5. **Comparative Algorithm Analysis**
 6. **Production-Ready Code Organization**
 
-## 🔬 Key Findings Summary
+## Key Findings Summary
 
 - **Enhanced NMF outperformed LDA** with 58.4% vs 43.9% coherence score
 - **10 distinct topic categories** identified in consumer complaints
