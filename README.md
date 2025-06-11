@@ -1,8 +1,6 @@
-# 🔍 NLP-Based Topic Modeling Pipeline
+# NLP-Based Topic Modeling Pipeline
 **Consumer Complaints Analysis using Advanced Topic Modeling**
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## 👨‍🎓 Student Information
@@ -10,6 +8,7 @@
 - **Email**: joshua.rebo@iu-study.org  
 - **Matriculation Number**: 9213334
 - **University**: IU International University of Applied Sciences
+- **Dataset** : https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints/data
 
 ## 📋 Project Overview
 
@@ -210,7 +209,7 @@ wordcloud==1.9.2       # Word cloud generation
 - ✅ **Representative Document Analysis**: Automatic topic interpretation
 - ✅ **Advanced Preprocessing**: Domain-specific text cleaning
 
-## 📚 Academic Context
+## Academic Context
 
 This project demonstrates advanced NLP and machine learning techniques for:
 - **Unsupervised Learning**: Topic modeling without labeled data
@@ -219,11 +218,7 @@ This project demonstrates advanced NLP and machine learning techniques for:
 - **Comparative Analysis**: Evaluating different algorithmic approaches
 - **Data Visualization**: Presenting complex results clearly
 
-**Suitable for**: Advanced Data Science, NLP, Machine Learning coursework
-
-## 🎓 Learning Outcomes
-
-Upon completion, this project demonstrates proficiency in:
+## Learning Outcomes
 1. **Text Preprocessing & Feature Engineering**
 2. **Advanced Topic Modeling Techniques** 
 3. **Model Evaluation & Optimization**
@@ -239,7 +234,7 @@ Upon completion, this project demonstrates proficiency in:
 - **High topic overlap** (82% Jaccard similarity) between models validates results
 - **Processing efficiency**: Successfully analyzed 555K+ complaints
 
-## 📞 Contact & Support
+## Contact
 
 **Student**: Joshua Rebo  
 **Email**: joshua.rebo@iu-study.org  
@@ -251,4 +246,4 @@ For questions about the analysis or technical implementation, please contact via
 ---
 
 **© 2025 Joshua Rebo | IU International University of Applied Sciences**  
-*This project is part of academic coursework in Advanced Data Science & NLP*
+*This project on Data Analysis is part of academic coursework in Applied Artificial Intelligence*
