@@ -1,0 +1,180 @@
+{
+  "methodology": "Enhanced NMF with parameter tuning and coherence evaluation",
+  "optimal_parameters": {
+    "n_components": 10,
+    "alpha_W": 0.0,
+    "alpha_H": 0.0,
+    "l1_ratio": 0.5
+  },
+  "performance": {
+    "nmf_coherence": 0.5837248089025131,
+    "lda_coherence": 0.43945473498729215,
+    "reconstruction_error": 202.7323121325095
+  },
+  "topics": [
+    {
+      "id": 1,
+      "top_terms": [
+        "payment",
+        "late",
+        "pay",
+        "make",
+        "month",
+        "make payment",
+        "fee",
+        "due",
+        "late fee",
+        "amount"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 2,
+      "top_terms": [
+        "report",
+        "credit",
+        "credit report",
+        "remove",
+        "information",
+        "experian",
+        "equifax",
+        "inquiry",
+        "dispute",
+        "reporting"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 3,
+      "top_terms": [
+        "call",
+        "number",
+        "phone",
+        "tell",
+        "say",
+        "get",
+        "ask",
+        "time",
+        "back",
+        "work"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 4,
+      "top_terms": [
+        "account",
+        "open",
+        "close",
+        "balance",
+        "close account",
+        "account close",
+        "open account",
+        "account open",
+        "account number",
+        "show"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 5,
+      "top_terms": [
+        "debt",
+        "collection",
+        "owe",
+        "agency",
+        "collection agency",
+        "collect",
+        "pay",
+        "company",
+        "debt collection",
+        "collector"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 6,
+      "top_terms": [
+        "loan",
+        "mortgage",
+        "modification",
+        "home",
+        "year",
+        "rate",
+        "get",
+        "pay",
+        "loan modification",
+        "interest"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 7,
+      "top_terms": [
+        "card",
+        "credit card",
+        "credit",
+        "charge",
+        "use",
+        "purchase",
+        "balance",
+        "pay",
+        "interest",
+        "chase"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 8,
+      "top_terms": [
+        "fargo",
+        "wells",
+        "wells fargo",
+        "home",
+        "mortgage",
+        "home mortgage",
+        "sale",
+        "check",
+        "modification",
+        "foreclosure"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 9,
+      "top_terms": [
+        "xxxxxxxx",
+        "letter",
+        "send",
+        "receive",
+        "request",
+        "date",
+        "state",
+        "information",
+        "dispute",
+        "file"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 10,
+      "top_terms": [
+        "bank",
+        "america",
+        "bank america",
+        "check",
+        "fee",
+        "money",
+        "deposit",
+        "charge",
+        "overdraft",
+        "fund"
+      ],
+      "interpretation": "See analysis above"
+    }
+  ],
+  "comparison": {
+    "nmf_vs_lda_coherence": "NMF",
+    "max_topic_overlap": 0.8181818181818182
+  }
+}

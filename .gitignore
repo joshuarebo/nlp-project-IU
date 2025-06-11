@@ -1,0 +1,39 @@
+# Large data files and models
+*.csv
+*.pkl
+*.model
+*.npy
+*.sqlite
+*.db
+
+# Virtual environment
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+.env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment and logs
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Exceptions - allow small sample files
+!data/cleaned_data_preview.csv
+!requirements.txt
+
+# Keep important result files but ignore large models
+!results/enhanced_nmf_analysis.json
+!results/results_summary.json
+!results/nmf_grid_search_results.csv
+!results/visualizations/*.png
+!results/visualizations/*.html

@@ -1,0 +1,26 @@
+{
+    "dataset_info": {
+        "total_complaints": 555957,
+        "processed_complaints": 49608,
+        "avg_tokens_per_complaint": 82.55565634575069,
+        "timestamp": "2025-06-11 12:10:56"
+    },
+    "vectorization": {
+        "tfidf_matrix_shape": [
+            49608,
+            1000
+        ],
+        "tfidf_features": 1000,
+        "word2vec_vocab_size": 10626,
+        "word2vec_vector_size": 100,
+        "doc_vectors_shape": [
+            49608,
+            100
+        ]
+    },
+    "topic_modeling": {
+        "lda_num_topics": 8,
+        "lda_coherence": 0.43945473498729215,
+        "nmf_num_topics": 10
+    }
+}
