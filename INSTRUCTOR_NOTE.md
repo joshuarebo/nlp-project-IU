@@ -4,12 +4,11 @@
 
 This NLP Topic Modeling project requires the original Consumer Complaints dataset to run the analysis. Due to GitHub's file size limitations (100MB), the original dataset is **NOT included** in this repository.
 
-### 🚨 **Action Required Before Evaluation:**
+### **Action Required Before Evaluation:**
 
 1. **Download the Dataset:**
-   - Visit: https://www.kaggle.com/cfpb/us-consumer-finance-complaints
-   - Download `consumer_complaints.csv` (approximately 150MB)
-   - Alternative: https://www.consumerfinance.gov/data-research/consumer-complaints/
+   - Visit: https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints/data
+   - Download `consumer_complaints.csv` 
 
 2. **Place in Project Root:**
    ```
@@ -30,7 +29,7 @@ This NLP Topic Modeling project requires the original Consumer Complaints datase
    (Get-Item "consumer_complaints.csv").Length / 1MB
    ```
 
-### 📊 **What's Already Included:**
+### **What's Already Included:**
 
 ✅ **Sample Data**: `data/cleaned_data_preview.csv` (10 rows preview)  
 ✅ **All Results**: Complete analysis outputs in `results/` folder  
@@ -47,7 +46,7 @@ If you prefer to **evaluate without downloading the dataset**, you can:
 3. **Check visualizations**: Available in `results/visualizations/`
 4. **Review analysis**: Complete summary in `results/enhanced_nmf_analysis.json`
 
-### 💡 **Quick Evaluation Path:**
+### **Quick Evaluation Path:**
 
 ```powershell
 # 1. Clone and enter directory
@@ -61,10 +60,8 @@ jupyter notebook nlp_topic_modeling_pipeline.ipynb
 Get-Content results/enhanced_nmf_analysis.json | ConvertFrom-Json
 ```
 
-### 📞 **Contact:**
+### **Contact:**
 **Student**: Joshua Rebo  
 **Email**: joshua.rebo@iu-study.org  
 **Matriculation**: 9213334  
 
----
-*This note ensures smooth project evaluation. The analysis demonstrates advanced NLP techniques with comprehensive results already computed and visualized.*

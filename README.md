@@ -130,7 +130,7 @@ cd nlp-project-IU
 ⚠️ **IMPORTANT**: The original dataset is not included in this repository due to its large size (>100MB).
 
 **Download the Dataset:**
-1. Visit: [Consumer Complaints Database - Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
+1. Visit: [Consumer Complaints Database - Kaggle](https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints/data)
 2. Download `consumer_complaints.csv` 
 3. Place the file in the project root directory: `nlp-project-IU/consumer_complaints.csv`
 
