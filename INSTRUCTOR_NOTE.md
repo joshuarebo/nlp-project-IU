@@ -1,4 +1,4 @@
-**IMPORTANT NOTE FOR INSTRUCTOR/EVALUATOR**
+**Tutor Notes**
 
 ## Dataset Setup Required
 
