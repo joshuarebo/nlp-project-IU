@@ -118,6 +118,7 @@ nlp-project-IU/
 - Python 3.8+ 
 - Jupyter Notebook or JupyterLab
 - Git (for cloning)
+- **Dataset**: Consumer Complaints Dataset (see Dataset Setup below)
 
 ### **1. Clone the Repository**
 ```bash
@@ -125,7 +126,29 @@ git clone https://github.com/joshuarebo/nlp-project-IU.git
 cd nlp-project-IU
 ```
 
-### **2. Set Up Environment**
+### **2. Dataset Setup** 
+⚠️ **IMPORTANT**: The original dataset is not included in this repository due to its large size (>100MB).
+
+**Download the Dataset:**
+1. Visit: [Consumer Complaints Database - Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
+2. Download `consumer_complaints.csv` 
+3. Place the file in the project root directory: `nlp-project-IU/consumer_complaints.csv`
+
+**Alternative Dataset Sources:**
+- [CFPB Official Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- Direct download: Use the data collection cell in the notebook for automated download
+
+**Verification:**
+```powershell
+# Check if dataset is in place (Windows)
+Test-Path "consumer_complaints.csv"
+# Should return: True
+
+# Check file size (should be ~100MB+)
+(Get-Item "consumer_complaints.csv").Length / 1MB
+```
+
+### **3. Set Up Environment**
 
 **For Windows (PowerShell):**
 ```powershell
@@ -151,7 +174,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-### **3. Launch Jupyter Notebook**
+### **4. Launch Jupyter Notebook**
 ```bash
 # Start Jupyter
 jupyter notebook
@@ -160,7 +183,7 @@ jupyter notebook
 # 🌟 nlp_topic_modeling_pipeline.ipynb
 ```
 
-### **4. Run the Analysis**
+### **5. Run the Analysis**
 1. Open `nlp_topic_modeling_pipeline.ipynb` - **This is the main analysis file**
 2. Select the correct kernel: "Python (NLP Topic Modeling)" if available
 3. Run all cells in sequence (Cell → Run All)
