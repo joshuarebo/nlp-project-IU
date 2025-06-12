@@ -1,4 +1,4 @@
-📋 **IMPORTANT NOTE FOR INSTRUCTOR/EVALUATOR**
+**Tutor Notes**
 
 ## Dataset Setup Required
 
@@ -37,7 +37,7 @@ This NLP Topic Modeling project requires the original Consumer Complaints datase
 ✅ **Trained Models**: Saved models in `results/models/`  
 ✅ **Analysis Summary**: JSON reports with all metrics  
 
-### 🔄 **Alternative: View Results Without Re-running**
+### **Alternative: View Results Without Re-running**
 
 If you prefer to **evaluate without downloading the dataset**, you can:
 
