@@ -1,26 +1,26 @@
 {
     "dataset_info": {
         "total_complaints": 555957,
-        "processed_complaints": 49608,
-        "avg_tokens_per_complaint": 82.55565634575069,
-        "timestamp": "2025-06-11 12:10:56"
+        "processed_complaints": 47967,
+        "avg_tokens_per_complaint": 67.58811266078763,
+        "timestamp": "2025-06-12 05:40:42"
     },
     "vectorization": {
         "tfidf_matrix_shape": [
-            49608,
-            1000
+            47967,
+            2000
         ],
-        "tfidf_features": 1000,
-        "word2vec_vocab_size": 10626,
+        "tfidf_features": 2000,
+        "word2vec_vocab_size": 8948,
         "word2vec_vector_size": 100,
         "doc_vectors_shape": [
-            49608,
+            47967,
             100
         ]
     },
     "topic_modeling": {
-        "lda_num_topics": 8,
-        "lda_coherence": 0.43945473498729215,
-        "nmf_num_topics": 10
+        "lda_num_topics": 12,
+        "lda_coherence": 0.4758588710100567,
+        "nmf_num_topics": 15
     }
 }

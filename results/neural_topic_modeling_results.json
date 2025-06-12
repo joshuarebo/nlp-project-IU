@@ -1,0 +1,356 @@
+{
+  "methodology": "Neural Topic Modeling with Multiple Embeddings",
+  "models": {
+    "sentence_bert": {
+      "reconstruction_loss": 0.0010504931301154473,
+      "n_parameters": 272524,
+      "topics": [
+        [
+          "topic_0_word_0",
+          "topic_0_word_1",
+          "topic_0_word_2",
+          "topic_0_word_3",
+          "topic_0_word_4",
+          "topic_0_word_5",
+          "topic_0_word_6",
+          "topic_0_word_7",
+          "topic_0_word_8",
+          "topic_0_word_9"
+        ],
+        [
+          "topic_1_word_0",
+          "topic_1_word_1",
+          "topic_1_word_2",
+          "topic_1_word_3",
+          "topic_1_word_4",
+          "topic_1_word_5",
+          "topic_1_word_6",
+          "topic_1_word_7",
+          "topic_1_word_8",
+          "topic_1_word_9"
+        ],
+        [
+          "topic_2_word_0",
+          "topic_2_word_1",
+          "topic_2_word_2",
+          "topic_2_word_3",
+          "topic_2_word_4",
+          "topic_2_word_5",
+          "topic_2_word_6",
+          "topic_2_word_7",
+          "topic_2_word_8",
+          "topic_2_word_9"
+        ],
+        [
+          "topic_3_word_0",
+          "topic_3_word_1",
+          "topic_3_word_2",
+          "topic_3_word_3",
+          "topic_3_word_4",
+          "topic_3_word_5",
+          "topic_3_word_6",
+          "topic_3_word_7",
+          "topic_3_word_8",
+          "topic_3_word_9"
+        ],
+        [
+          "topic_4_word_0",
+          "topic_4_word_1",
+          "topic_4_word_2",
+          "topic_4_word_3",
+          "topic_4_word_4",
+          "topic_4_word_5",
+          "topic_4_word_6",
+          "topic_4_word_7",
+          "topic_4_word_8",
+          "topic_4_word_9"
+        ],
+        [
+          "topic_5_word_0",
+          "topic_5_word_1",
+          "topic_5_word_2",
+          "topic_5_word_3",
+          "topic_5_word_4",
+          "topic_5_word_5",
+          "topic_5_word_6",
+          "topic_5_word_7",
+          "topic_5_word_8",
+          "topic_5_word_9"
+        ],
+        [
+          "topic_6_word_0",
+          "topic_6_word_1",
+          "topic_6_word_2",
+          "topic_6_word_3",
+          "topic_6_word_4",
+          "topic_6_word_5",
+          "topic_6_word_6",
+          "topic_6_word_7",
+          "topic_6_word_8",
+          "topic_6_word_9"
+        ],
+        [
+          "topic_7_word_0",
+          "topic_7_word_1",
+          "topic_7_word_2",
+          "topic_7_word_3",
+          "topic_7_word_4",
+          "topic_7_word_5",
+          "topic_7_word_6",
+          "topic_7_word_7",
+          "topic_7_word_8",
+          "topic_7_word_9"
+        ],
+        [
+          "topic_8_word_0",
+          "topic_8_word_1",
+          "topic_8_word_2",
+          "topic_8_word_3",
+          "topic_8_word_4",
+          "topic_8_word_5",
+          "topic_8_word_6",
+          "topic_8_word_7",
+          "topic_8_word_8",
+          "topic_8_word_9"
+        ],
+        [
+          "topic_9_word_0",
+          "topic_9_word_1",
+          "topic_9_word_2",
+          "topic_9_word_3",
+          "topic_9_word_4",
+          "topic_9_word_5",
+          "topic_9_word_6",
+          "topic_9_word_7",
+          "topic_9_word_8",
+          "topic_9_word_9"
+        ],
+        [
+          "topic_10_word_0",
+          "topic_10_word_1",
+          "topic_10_word_2",
+          "topic_10_word_3",
+          "topic_10_word_4",
+          "topic_10_word_5",
+          "topic_10_word_6",
+          "topic_10_word_7",
+          "topic_10_word_8",
+          "topic_10_word_9"
+        ],
+        [
+          "topic_11_word_0",
+          "topic_11_word_1",
+          "topic_11_word_2",
+          "topic_11_word_3",
+          "topic_11_word_4",
+          "topic_11_word_5",
+          "topic_11_word_6",
+          "topic_11_word_7",
+          "topic_11_word_8",
+          "topic_11_word_9"
+        ]
+      ],
+      "embedding_dimension": 384,
+      "model_architecture": {
+        "encoder_dims": [
+          384,
+          256,
+          128
+        ],
+        "decoder_dims": [
+          128,
+          256,
+          384
+        ],
+        "n_topics": 12,
+        "activation": "ReLU",
+        "dropout_rate": 0.1
+      }
+    },
+    "word2vec": {
+      "reconstruction_loss": 0.002236236367823073,
+      "n_parameters": 123424,
+      "topics": [
+        [
+          "topic_0_word_0",
+          "topic_0_word_1",
+          "topic_0_word_2",
+          "topic_0_word_3",
+          "topic_0_word_4",
+          "topic_0_word_5",
+          "topic_0_word_6",
+          "topic_0_word_7",
+          "topic_0_word_8",
+          "topic_0_word_9"
+        ],
+        [
+          "topic_1_word_0",
+          "topic_1_word_1",
+          "topic_1_word_2",
+          "topic_1_word_3",
+          "topic_1_word_4",
+          "topic_1_word_5",
+          "topic_1_word_6",
+          "topic_1_word_7",
+          "topic_1_word_8",
+          "topic_1_word_9"
+        ],
+        [
+          "topic_2_word_0",
+          "topic_2_word_1",
+          "topic_2_word_2",
+          "topic_2_word_3",
+          "topic_2_word_4",
+          "topic_2_word_5",
+          "topic_2_word_6",
+          "topic_2_word_7",
+          "topic_2_word_8",
+          "topic_2_word_9"
+        ],
+        [
+          "topic_3_word_0",
+          "topic_3_word_1",
+          "topic_3_word_2",
+          "topic_3_word_3",
+          "topic_3_word_4",
+          "topic_3_word_5",
+          "topic_3_word_6",
+          "topic_3_word_7",
+          "topic_3_word_8",
+          "topic_3_word_9"
+        ],
+        [
+          "topic_4_word_0",
+          "topic_4_word_1",
+          "topic_4_word_2",
+          "topic_4_word_3",
+          "topic_4_word_4",
+          "topic_4_word_5",
+          "topic_4_word_6",
+          "topic_4_word_7",
+          "topic_4_word_8",
+          "topic_4_word_9"
+        ],
+        [
+          "topic_5_word_0",
+          "topic_5_word_1",
+          "topic_5_word_2",
+          "topic_5_word_3",
+          "topic_5_word_4",
+          "topic_5_word_5",
+          "topic_5_word_6",
+          "topic_5_word_7",
+          "topic_5_word_8",
+          "topic_5_word_9"
+        ],
+        [
+          "topic_6_word_0",
+          "topic_6_word_1",
+          "topic_6_word_2",
+          "topic_6_word_3",
+          "topic_6_word_4",
+          "topic_6_word_5",
+          "topic_6_word_6",
+          "topic_6_word_7",
+          "topic_6_word_8",
+          "topic_6_word_9"
+        ],
+        [
+          "topic_7_word_0",
+          "topic_7_word_1",
+          "topic_7_word_2",
+          "topic_7_word_3",
+          "topic_7_word_4",
+          "topic_7_word_5",
+          "topic_7_word_6",
+          "topic_7_word_7",
+          "topic_7_word_8",
+          "topic_7_word_9"
+        ],
+        [
+          "topic_8_word_0",
+          "topic_8_word_1",
+          "topic_8_word_2",
+          "topic_8_word_3",
+          "topic_8_word_4",
+          "topic_8_word_5",
+          "topic_8_word_6",
+          "topic_8_word_7",
+          "topic_8_word_8",
+          "topic_8_word_9"
+        ],
+        [
+          "topic_9_word_0",
+          "topic_9_word_1",
+          "topic_9_word_2",
+          "topic_9_word_3",
+          "topic_9_word_4",
+          "topic_9_word_5",
+          "topic_9_word_6",
+          "topic_9_word_7",
+          "topic_9_word_8",
+          "topic_9_word_9"
+        ],
+        [
+          "topic_10_word_0",
+          "topic_10_word_1",
+          "topic_10_word_2",
+          "topic_10_word_3",
+          "topic_10_word_4",
+          "topic_10_word_5",
+          "topic_10_word_6",
+          "topic_10_word_7",
+          "topic_10_word_8",
+          "topic_10_word_9"
+        ],
+        [
+          "topic_11_word_0",
+          "topic_11_word_1",
+          "topic_11_word_2",
+          "topic_11_word_3",
+          "topic_11_word_4",
+          "topic_11_word_5",
+          "topic_11_word_6",
+          "topic_11_word_7",
+          "topic_11_word_8",
+          "topic_11_word_9"
+        ]
+      ],
+      "embedding_dimension": 100,
+      "model_architecture": {
+        "encoder_dims": [
+          100,
+          256,
+          128
+        ],
+        "decoder_dims": [
+          128,
+          256,
+          100
+        ],
+        "n_topics": 12,
+        "activation": "ReLU",
+        "dropout_rate": 0.1
+      }
+    }
+  },
+  "comparison": [
+    {
+      "Model": "Sentence_Bert",
+      "Embedding Type": "sentence_bert",
+      "Reconstruction Loss": "0.0011",
+      "Parameters": "272,524",
+      "Topics": 12,
+      "Input Dimension": 384
+    },
+    {
+      "Model": "Word2Vec",
+      "Embedding Type": "word2vec",
+      "Reconstruction Loss": "0.0022",
+      "Parameters": "123,424",
+      "Topics": 12,
+      "Input Dimension": 100
+    }
+  ],
+  "timestamp": "2025-06-12 13:03:27"
+}

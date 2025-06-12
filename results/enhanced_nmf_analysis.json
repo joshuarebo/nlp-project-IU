@@ -1,30 +1,30 @@
 {
   "methodology": "Enhanced NMF with parameter tuning and coherence evaluation",
   "optimal_parameters": {
-    "n_components": 10,
-    "alpha_W": 0.0,
+    "n_components": 15,
+    "alpha_W": 0.1,
     "alpha_H": 0.0,
-    "l1_ratio": 0.5
+    "l1_ratio": 0.0
   },
   "performance": {
-    "nmf_coherence": 0.5837248089025131,
-    "lda_coherence": 0.43945473498729215,
-    "reconstruction_error": 202.7323121325095
+    "nmf_coherence": 0.6494014446247214,
+    "lda_coherence": 0.4758588710100567,
+    "reconstruction_error": 204.09697136452704
   },
   "topics": [
     {
       "id": 1,
       "top_terms": [
-        "payment",
-        "late",
-        "pay",
-        "make",
-        "month",
-        "make payment",
-        "fee",
-        "due",
-        "late fee",
-        "amount"
+        "check",
+        "money",
+        "bank",
+        "deposit",
+        "fund",
+        "tell",
+        "customer",
+        "go",
+        "say",
+        "cash"
       ],
       "interpretation": "See analysis above"
     },
@@ -32,79 +32,79 @@
       "id": 2,
       "top_terms": [
         "report",
-        "credit",
         "credit report",
+        "credit",
         "remove",
-        "information",
-        "experian",
-        "equifax",
-        "inquiry",
         "dispute",
-        "reporting"
+        "report credit",
+        "experian",
+        "remove credit",
+        "score",
+        "equifax"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 3,
       "top_terms": [
-        "call",
-        "number",
-        "phone",
-        "tell",
-        "say",
-        "get",
-        "ask",
-        "time",
-        "back",
-        "work"
+        "debt",
+        "collect",
+        "owe",
+        "collect debt",
+        "collector",
+        "debt collector",
+        "attempt collect",
+        "attempt",
+        "debt collection",
+        "try collect"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 4,
       "top_terms": [
-        "account",
-        "open",
-        "close",
-        "balance",
-        "close account",
-        "account close",
-        "open account",
-        "account open",
-        "account number",
-        "show"
+        "mortgage",
+        "modification",
+        "home",
+        "foreclosure",
+        "loan",
+        "sale",
+        "property",
+        "loan modification",
+        "house",
+        "document"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 5,
       "top_terms": [
-        "debt",
         "collection",
-        "owe",
         "agency",
         "collection agency",
-        "collect",
+        "bill",
         "pay",
-        "company",
+        "medical",
+        "insurance",
         "debt collection",
-        "collector"
+        "send collection",
+        "pay bill"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 6,
       "top_terms": [
-        "loan",
-        "mortgage",
-        "modification",
-        "home",
-        "year",
-        "rate",
-        "get",
-        "pay",
-        "loan modification",
-        "interest"
+        "call",
+        "phone",
+        "number",
+        "tell",
+        "ask",
+        "phone number",
+        "stop",
+        "message",
+        "say",
+        "work"
       ],
       "interpretation": "See analysis above"
     },
@@ -114,67 +114,147 @@
         "card",
         "credit card",
         "credit",
-        "charge",
-        "use",
         "purchase",
-        "balance",
-        "pay",
-        "interest",
-        "chase"
+        "card account",
+        "use",
+        "apply",
+        "score",
+        "credit card account",
+        "limit"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 8,
       "top_terms": [
-        "fargo",
-        "wells",
-        "wells fargo",
-        "home",
+        "payment",
+        "late",
+        "pay",
         "mortgage",
-        "home mortgage",
-        "sale",
-        "check",
-        "modification",
-        "foreclosure"
+        "late payment",
+        "monthly",
+        "escrow",
+        "statement",
+        "monthly payment",
+        "mortgage payment"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 9,
       "top_terms": [
-        "xxxxxxxx",
-        "letter",
-        "send",
-        "receive",
-        "request",
-        "date",
-        "state",
-        "information",
-        "dispute",
-        "file"
+        "loan",
+        "interest",
+        "rate",
+        "pay",
+        "interest rate",
+        "student",
+        "student loan",
+        "pay loan",
+        "car",
+        "high"
       ],
       "interpretation": "See analysis above"
     },
     {
       "id": 10,
       "top_terms": [
-        "bank",
-        "america",
-        "bank america",
-        "check",
-        "fee",
-        "money",
-        "deposit",
+        "account",
+        "close",
+        "open",
+        "close account",
+        "account close",
+        "balance",
+        "open account",
+        "account open",
+        "account credit",
+        "account account"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 11,
+      "top_terms": [
+        "letter",
+        "send",
+        "receive",
+        "request",
+        "state",
+        "information",
+        "dispute",
+        "provide",
+        "mail",
+        "send letter"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 12,
+      "top_terms": [
         "charge",
+        "fee",
         "overdraft",
-        "fund"
+        "late fee",
+        "overdraft fee",
+        "late",
+        "interest",
+        "charge fee",
+        "balance",
+        "fee charge"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 13,
+      "top_terms": [
+        "identity",
+        "theft",
+        "identity theft",
+        "victim",
+        "victim identity",
+        "victim identity theft",
+        "police",
+        "police report",
+        "fraudulent",
+        "fraud"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 14,
+      "top_terms": [
+        "reporting",
+        "credit reporting",
+        "inquiry",
+        "fair",
+        "reporting agency",
+        "act",
+        "fair credit",
+        "fair credit reporting",
+        "credit reporting agency",
+        "reporting act"
+      ],
+      "interpretation": "See analysis above"
+    },
+    {
+      "id": 15,
+      "top_terms": [
+        "security",
+        "social",
+        "social security",
+        "number",
+        "security number",
+        "social security number",
+        "address",
+        "information",
+        "personal",
+        "personal information"
       ],
       "interpretation": "See analysis above"
     }
   ],
   "comparison": {
     "nmf_vs_lda_coherence": "NMF",
-    "max_topic_overlap": 0.8181818181818182
+    "max_topic_overlap": 0.6666666666666666
   }
 }

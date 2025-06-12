@@ -1,0 +1,26 @@
+{
+  "model_info": {
+    "type": "neural_topic_model",
+    "best_embedding": "sentence_bert",
+    "reconstruction_loss": 0.0010504931301154473,
+    "n_topics": 12,
+    "input_dimension": 384
+  },
+  "preprocessing": {
+    "min_tokens": 8,
+    "max_tokens": 500,
+    "remove_stopwords": true,
+    "lemmatization": true,
+    "pos_filtering": [
+      "NOUN",
+      "ADJ",
+      "VERB",
+      "ADV"
+    ]
+  },
+  "inference": {
+    "batch_size": 32,
+    "device": "cpu",
+    "max_length": 512
+  }
+}
