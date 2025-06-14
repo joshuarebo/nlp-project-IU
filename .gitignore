@@ -1,10 +1,16 @@
 # Large data files and models
-*.csv
+consumer_complaints.csv
+data/processed_complaints.csv
 *.pkl
 *.model
 *.npy
 *.sqlite
 *.db
+
+# Exceptions for important result files
+!results/enhanced_nmf_grid_search_results.csv
+!results/neural_topic_model_comparison.csv
+!data/enhanced_cleaned_data_preview.csv
 
 # Virtual environment
 __pycache__/

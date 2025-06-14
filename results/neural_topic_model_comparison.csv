@@ -1,0 +1,3 @@
+Model,Embedding Type,Reconstruction Loss,Parameters,Topics,Input Dimension
+Sentence_Bert,sentence_bert,0.0011,"272,524",12,384
+Word2Vec,word2vec,0.0022,"123,424",12,100
