@@ -168,7 +168,7 @@
       }
     },
     "word2vec": {
-      "reconstruction_loss": 0.002236236367823073,
+      "reconstruction_loss": 0.0022114379534980766,
       "n_parameters": 123424,
       "topics": [
         [
@@ -352,5 +352,5 @@
       "Input Dimension": 100
     }
   ],
-  "timestamp": "2025-06-12 13:03:27"
+  "timestamp": "2025-06-14 08:16:39"
 }
